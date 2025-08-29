@@ -132,6 +132,9 @@ app_license = "mit"
 # override_doctype_class = {
 # 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
+override_doctype_class = {
+	"Auto Repeat": "custom_auto_repeat.custom_auto_repeat.override.auto_repeat.AutoRepeat"
+}
 
 # Document Events
 # ---------------
